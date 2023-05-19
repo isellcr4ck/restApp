@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Abyssinica SIL', serif;
+  background-color: #ffe400;
+}
+
+/* main {
+  transition: all 1s ease;
+}
+
+main:hover {
+  background-color: white;
+} */
+
+.container {
+  max-width: 1280px;
+  padding: 0 15px;
+}
+
+.header {
+  height: 700px;
+  background-image: url(img/bg1.jpg);
+  background-size: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.header-list {
+  max-width: 50%;
+  float: left;
+}
+
+.nav-ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.nav-ul li {
+  padding-right: 85px;
+}
+
+.nav-ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+
+.nav-ul a:hover {
+  color: #ffe400;
+  border-bottom: 1px solid white;
+}
+
+.header-img {
+  display: flex;
+  max-width: 30%;
+  float: right;
+  justify-content: end;
+  padding-top: 20px;
+}
+
+.header-img a {
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+
+.header-img span {
+  border: 2px solid #ffe400;
+  color: #ffe400;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-left: 20px;
+  transition: all 0.5s ease;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+.favorites {
+  margin-top: 0px;
+}
+
+.favorites__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.favorites-spieces {
+  display: inline-block;
+  width: 20%;
+  height: 20%;
+  /* overflow: hidden; */
+  border-radius: 50%;
+}
+
+.favorite__content-item {
+  margin: 0 100px;
+  display: flex;
+  max-width: 700px;
+  border: 1px solid #ffe400;
+  padding: 10px;
+  color: white;
+  background-color: #1e1e1e;
+  border-radius: 20px;
+  transition: all 0.5s ease-in;
+}
+
+.item1 {
+  margin-bottom: 125px;
+}
+
+.item1 h4 {
+  width: 50%;
+  text-align: center;
+  padding-top: 15px;
+  float: right;
+}
+
+.item2 {
+  margin-top: 125px;
+}
+
+.item2 h4 {
+  width: 50%;
+  text-align: center;
+  padding-top: 15px;
+  float: right;
+}
+
+.favorite__content-item:hover {
+  color: #ffe400;
+}
+
+.favorite__content-item img {
+  margin-right: 5px;
+  float: left;
+}
+
+.fav-par {
+  padding-top: 10px;
+  padding-left: 20px;
+  max-width: 280px;
+  text-align: right;
+  font-weight: lighter;
+}
+
+.h2 {
+  background-color: #1e1e1e;
+  margin-top: 150px;
+  margin-bottom: 0;
+}
+
+h2 {
+  padding-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+}
+
+.container-2 {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+  margin-top: 0;
+  background-color: #1e1e1e;
+}
+
+.slide {
+  padding-top: 50px;
+  height: 700px;
+  width: 40px;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  color: pink;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 500ms ease-in-out;
+  border: 2px solid #ffe400;
+}
+
+.slide h3 {
+  position: absolute;
+  font-size: 24px;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+
+.slide.active {
+  flex: 10;
+}
+
+.slide.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+.reviews h2 {
+  margin: 30px 0;
+  color: #1e1e1e;
+}
+
+.container-3 {
+  background-color: #1e1e1e;
+  color: white;
+  width: 50%;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px auto;
+  margin-bottom: 50px;
+}
+
+.container-3 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+  width: 90px;
+}
+
+.container-3 span {
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+@media (max-width: 450px) {
+  .container-3 {
+    text-align: center;
+  }
+  .container-3 img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #1e1e1e;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 200px;
+  padding-top: 25px;
+}
+
+footer a {
+  color: #ffe400;
+  font-size: 14px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+footer nav a:hover {
+  color: white;
+  border-bottom: 1px solid #ffe400;
+}
+
+.social svg {
+  width: 25px;
+}
+
+.social svg:hover {
+  color: white;
+}
