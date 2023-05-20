@@ -20,14 +20,14 @@
     <title>Ресторан</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="home">
       <div class="container">
         <nav>
           <div class="header-list">
             <ul class="nav-ul">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Menu</a></li>
-              <li><a href="#">About</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#about">About</a></li>
             </ul>
           </div>
           <div class="header-img">
@@ -96,7 +96,7 @@
       </div>
     </header>
     <main>
-      <section class="favorites">
+      <section class="favorites" id="about">
         <div class="container">
           <h1>Favorites Burgers</h1>
           <div class="favorites__content">
@@ -115,7 +115,7 @@
             </div>
           </div>
         </div>
-        <div class="h2">
+        <div class="h2" id="menu">
           <h2>Some Food</h2>
         </div>
         <div class="container-2">
@@ -124,46 +124,36 @@
             style="
               background-image: url('https://sun9-74.userapi.com/impf/c850524/v850524984/61ccc/w8I339Pp5JA.jpg?size=2400x1601&quality=96&sign=b98798e2bcf199a1c8477ebab929da7b&c_uniq_tag=P1XIwC3hgLft8bW5gjQdi7Zu-Co7k7aTj6Z3dW94f78&type=album');
             "
-          >
-            <!-- <h3>Бургер</h3> -->
-          </div>
+          ></div>
           <div
             class="slide"
             style="
               background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/5347c131056459.563f7852f0ba9.jpg ');
             "
-          >
-            <!-- <h3>Пицца</h3> -->
-          </div>
+          ></div>
           <div
             class="slide"
             style="
               background-image: url('http://a.mktgcdn.com/p/2eHDnpdvHTcZseeoett9tvn4D3Bs65XG4_wWum4DFWM/1336x891.jpg');
             "
-          >
-            <!-- <h3>Шашлык</h3> -->
-          </div>
+          ></div>
           <div
             class="slide"
             style="
               background-image: url('https://sun9-74.userapi.com/impg/3_OFn4VR73gsobzWPnNQk2iLg88OYcdYgCpXIQ/XHNiA8Gfbzs.jpg?size=1280x853&quality=95&sign=8aaa5290dbc40f042bb88741fafbc53f&c_uniq_tag=CaNjyGV8FMP1tEmsmwWr4TvWvvFA-5OeDS9knnCDQKI&type=album');
             "
-          >
-            <!-- <h3>Салат Цезарь</h3> -->
-          </div>
+          ></div>
           <div
             class="slide"
             style="
               background-image: url('https://kartinkin.net/uploads/posts/2022-08/1660752684_37-kartinkin-net-p-franklin-burger-yeda-krasivo-foto-55.jpg');
             "
-          >
-            <!-- <h3>Паста Карбонара</h3> -->
-          </div>
+          ></div>
         </div>
         <div class="reviews">
           <h2>Reviews</h2>
         </div>
-        <div class="container-3">
+        <div class="container-3" id="blog">
           <img src="img/uf1.png" alt="avatar" />
           <p><span>John Acklez</span> г. Moscow</p>
           <p>These are the best burgers in our city, thank you for being there!</p>
@@ -175,17 +165,28 @@
             Please work around the clock. I lead a nocturnal lifestyle and without you in any way!
           </p>
         </div>
+        <div class="locate" id="location">
+          <h2>Location</h2>
+          <div class="map">
+            <script
+              type="text/javascript"
+              charset="utf-8"
+              async
+              src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A815c93b16959d5cb11736bdf2aaf9abf974ae13a955a1ad0fd3270e7e4b2c11d&amp;width=780&amp;height=365&amp;lang=ru_RU&amp;scroll=true"
+            ></script>
+          </div>
+        </div>
       </section>
     </main>
-    <footer>
+    <footer id="footer">
       <nav class="footer">
-        <a href="#">HOME</a>
-        <a href="#">MENU</a>
-        <a href="#">ABOUT</a>
-        <a href="#">BLOG</a>
-        <a href="#">CONTACT</a>
+        <a href="#home">HOME</a>
+        <a href="#menu">MENU</a>
+        <a href="#about">ABOUT</a>
+        <a href="#blog">BLOG</a>
+        <a href="#footer">CONTACT</a>
         <a href="#">SERVICES</a>
-        <a href="#">LOCATION</a>
+        <a href="#location">LOCATION</a>
       </nav>
       <div class="logo">
         <img src="img/logo.png" alt="" />
