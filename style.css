@@ -8,14 +8,6 @@ body {
   background-color: #ffe400;
 }
 
-/* main {
-  transition: all 1s ease;
-}
-
-main:hover {
-  background-color: white;
-} */
-
 .container {
   max-width: 1280px;
   padding: 0 15px;
@@ -102,7 +94,6 @@ h1 {
   display: inline-block;
   width: 20%;
   height: 20%;
-  /* overflow: hidden; */
   border-radius: 50%;
 }
 
@@ -253,7 +244,6 @@ h2 {
 }
 
 .locate {
-  position: relative;
   background-color: #1e1e1e;
   margin-top: 150px;
 }
@@ -268,7 +258,7 @@ h2 {
   width: 466px;
   height: 466px;
   margin: 0 auto;
-  margin-left: 550px;
+  padding-bottom: 80px;
 }
 
 footer {
@@ -277,7 +267,6 @@ footer {
   background-color: #ffe400;
   margin: 0 auto;
   text-align: center;
-  /* margin-top: 200px; */
   padding-top: 25px;
 }
 
@@ -299,4 +288,8 @@ footer nav a:hover {
 
 .social svg:hover {
   color: white;
+}
+
+.logo img {
+  width: 150px;
 }

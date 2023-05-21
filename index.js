@@ -1,12 +1,12 @@
 const allNavElements = document.querySelector('.nav-ul');
 
-const newNavElement = document.createElement('a');
-newNavElement.href = '#blog';
-newNavElement.textContent = 'Blog';
+// const newNavElement = document.createElement('a');
+// newNavElement.href = '#blog';
+// newNavElement.textContent = 'Blog';
 
-const newNavOrder = document.createElement('li');
-newNavOrder.append(newNavElement);
-allNavElements.append(newNavOrder);
+// const newNavOrder = document.createElement('li');
+// newNavOrder.append(newNavElement);
+// allNavElements.append(newNavOrder);
 
 const newNavElement2 = document.createElement('a');
 newNavElement2.href = '#location';
