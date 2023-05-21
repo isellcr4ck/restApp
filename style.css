@@ -293,3 +293,7 @@ footer nav a:hover {
 .logo img {
   width: 150px;
 }
+
+.logo-href {
+  text-decoration: none;
+}

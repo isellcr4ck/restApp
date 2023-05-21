@@ -1,13 +1,5 @@
 const allNavElements = document.querySelector('.nav-ul');
 
-// const newNavElement = document.createElement('a');
-// newNavElement.href = '#blog';
-// newNavElement.textContent = 'Blog';
-
-// const newNavOrder = document.createElement('li');
-// newNavOrder.append(newNavElement);
-// allNavElements.append(newNavOrder);
-
 const newNavElement2 = document.createElement('a');
 newNavElement2.href = '#location';
 newNavElement2.textContent = 'Location';
@@ -37,3 +29,15 @@ function slidesPlugin(activeSlide) {
 }
 
 slidesPlugin(4);
+
+TELEGRAM_URL = 'https://t.me/spartaksburger';
+const tgUrl = document.querySelector('.logo');
+const imgUrl = tgUrl.querySelector('img');
+
+const createLogoUrl = document.createElement('a');
+createLogoUrl.className = 'logo-href';
+createLogoUrl.href = TELEGRAM_URL;
+createLogoUrl.target = '_blank';
+
+createLogoUrl.append(imgUrl);
+tgUrl.append(createLogoUrl);
